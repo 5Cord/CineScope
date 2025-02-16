@@ -1,10 +1,13 @@
 import React from 'react'
 import Movies from '../modules/movies/Movies'
+import { MovieProvider } from '../modules/movies/context/MovieContext'
 
 export default function Catalog() {
   return (
     <>
-    <Movies></Movies>
+      <MovieProvider>
+        <Movies></Movies>
+      </MovieProvider>
     </>
   )
 }

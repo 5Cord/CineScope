@@ -11,7 +11,7 @@ export default function Menu() {
                 <Link to="/fav">Избранное</Link>
             </li>
             <li>
-                <Link to="/trash">Моё</Link>
+                <Link to="/history">Моё</Link>
             </li>
         </ul>
     )
